@@ -1,0 +1,111 @@
+.Img {
+  display: flex;
+  height: 3rem;
+  size: 1rem;
+}
+
+.main {
+  min-height: 100%;
+  position: relative;
+}
+
+.main-content {
+  background-color: rgb(92, 90, 90);
+}
+
+.ant-typography.main-content-h1 {
+  font-size: 2.3rem;
+  margin: 1.2rem 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.ant-input.main-input-search {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.5em 1em;
+  border: 5px solid rgb(156, 154, 154);
+  border-radius: 0.3em;
+}
+
+.ant-input.main-input-search:hover,
+.ant-input.main-input-search:focus {
+  border-color: rgb(48, 149, 48);
+}
+
+.ant-layout-header.main-header {
+  background-color: rgb(43, 41, 41);
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-layout-content.main-content {
+  padding: 4rem;
+  flex-grow: 1;
+}
+
+.ant-layout-footer.main-footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ant-layout-footer.main-footer ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1.4rem;
+  color: white;
+}
+
+.ant-layout-footer.main-footer a {
+  color: inherit;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+.main-footer a:hover,
+.main-footer a:active {
+  color: rgb(204, 200, 200);
+}
+
+.ant-btn.main-btn {
+  background-color: rgb(48, 149, 48);
+  color: black;
+  display: flex;
+  font-size: 1.1rem;
+  padding: 0rem 1.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-btn-holder {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.ant-btn.log {
+  background-color: rgb(132, 131, 131);
+  color: white;
+}
+
+.ant-btn.main-btn:active,
+.ant-btn.main-btn:hover {
+  background-color: rgb(48, 126, 48);
+  color: white;
+}
+
+.ant-btn.log:active,
+.ant-btn.log:hover {
+  background-color: rgb(145, 144, 144);
+}
