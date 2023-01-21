@@ -1,13 +1,13 @@
-.Img {
+/* .Img {
   display: flex;
   height: 3rem;
   size: 1rem;
 }
 
-.main {
+/* .main {
   min-height: 100%;
   position: relative;
-}
+} */
 
 .main-content {
   background-color: rgb(92, 90, 90);
@@ -18,6 +18,11 @@
   margin: 1.2rem 0;
   text-align: center;
   color: rgb(255, 255, 255);
+}
+
+.ant-layout-content.main-content {
+  padding: 4rem;
+  flex-grow: 1;
 }
 
 .ant-input.main-input-search {
@@ -35,7 +40,7 @@
   border-color: rgb(48, 149, 48);
 }
 
-.ant-layout-header.main-header {
+/* .ant-layout-header.main-header {
   background-color: rgb(43, 41, 41);
   padding: 0 1rem;
   position: fixed;
@@ -45,14 +50,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.ant-layout-content.main-content {
-  padding: 4rem;
-  flex-grow: 1;
-}
-
-.ant-layout-footer.main-footer {
+/* .ant-layout-footer.main-footer {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -108,4 +108,4 @@
 .ant-btn.log:active,
 .ant-btn.log:hover {
   background-color: rgb(145, 144, 144);
-}
+} */
