@@ -1,12 +1,12 @@
 import React from "react";
 import { Layout, Button, Typography, Input } from "antd";
 
-import "../components/MainPage/MainPage.css";
-import "./Share.css";
+import "../MainPage/MainPage.css";
+import "./Footer.css";
 
 const { Footer } = Layout;
 
-const Footerr = () => (
+const CustomFooter = () => (
   <Layout className="main">
     <Footer className="main-footer">
       <ul>
@@ -24,4 +24,4 @@ const Footerr = () => (
   </Layout>
 );
 
-export default Footerr;
+export default CustomFooter;

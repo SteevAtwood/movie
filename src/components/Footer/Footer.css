@@ -1,0 +1,25 @@
+.ant-layout-footer.main-footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ant-layout-footer.main-footer ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1.4rem;
+  color: white;
+}
+
+.ant-layout-footer.main-footer a {
+  color: inherit;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.main-footer a:hover,
+.main-footer a:active {
+  color: rgb(204, 200, 200);
+}

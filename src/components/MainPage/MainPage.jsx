@@ -1,8 +1,8 @@
 import React from "react";
 
-import Headerr from "../Header";
-import Body from "../Content";
-import Footerr from "../Footer";
+import CustomHeader from "../Header/Header";
+import CustomContent from "../Content/Content";
+import CustomFooter from "../Footer/Footer";
 
 import "./MainPage.css";
 import "../../components/Share.css";
@@ -10,9 +10,9 @@ import "../../components/Share.css";
 const MainPage = () => {
   return (
     <div>
-      <Headerr />
-      <Body />
-      <Footerr />
+      <CustomHeader />
+      <CustomContent />
+      <CustomFooter />
     </div>
   );
 };

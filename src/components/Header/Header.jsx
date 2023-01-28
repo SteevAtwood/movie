@@ -1,12 +1,12 @@
 import React from "react";
 import { Layout, Button } from "antd";
 
-import "../components/MainPage/MainPage.css";
-import "./Share.css";
+import "../MainPage/MainPage.css";
+import "./Header.css";
 
 const { Header } = Layout;
 
-const Headerr = () => (
+const CustomHeader = () => (
   <Layout className="main">
     <Header className="main-header">
       <a href="/" className="Logo">
@@ -24,4 +24,4 @@ const Headerr = () => (
   </Layout>
 );
 
-export default Headerr;
+export default CustomHeader;
